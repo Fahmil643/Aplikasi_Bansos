@@ -1,0 +1,11 @@
+{
+    "name": "sistem-bansos-root",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "concurrently \"C:/laragon/bin/php/php-8.1.10-Win32-vs16-x64/php.exe -S localhost:8000 -t backend\" \"npm run dev --prefix frontend\""
+    },
+    "devDependencies": {
+        "concurrently": "^9.1.2"
+    }
+}
